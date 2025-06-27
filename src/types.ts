@@ -12,6 +12,8 @@ export interface User {
     birthDate: string;
 };
 
+/* eslint-disable no-unused-vars */
+// Está sendo utilizado, o ESLint não reconhece o uso em outros arquivos.
 export enum BrazilianRatingSystem {
     L = 'L',
     AGE_10 = '10',
@@ -20,3 +22,4 @@ export enum BrazilianRatingSystem {
     AGE_16 = '16',
     AGE_18 = '18'
 }
+/* eslint-enable no-unused-vars */
